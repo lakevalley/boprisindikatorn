@@ -1,8 +1,8 @@
-# Bostadskollen: teknisk rapport
+# Boprisindikatorn: teknisk rapport
 
 ## Bakgrund och syfte
 
-I Bostadskollen har vi byggt en applikation som uppskattar utgångspriset för lägenheter, villor och radhus med hjälp av maskininlärning. Projektet omfattar hela flödet från bostadsdata och modellträning till en app där användaren kan göra en uppskattning och utforska resultaten. Vi ville också undersöka vilka uppgifter om en bostad som hjälper modellen att göra bättre uppskattningar.
+I Boprisindikatorn har vi byggt en applikation som uppskattar utgångspriset för lägenheter, villor och radhus med hjälp av maskininlärning. Projektet omfattar hela flödet från bostadsdata och modellträning till en app där användaren kan göra en uppskattning och utforska resultaten. Vi ville också undersöka vilka uppgifter om en bostad som hjälper modellen att göra bättre uppskattningar.
 
 Vi märkte tidigt att den största utmaningen låg i att förstå och förbereda datan. Rådatasetet innehåller 11 549 bostadsannonser och uppgifter om bland annat utgångspris, bostadstyp, boarea, antal rum, adress och koordinater. Det saknar däremot flera faktorer som kan påverka priset. Vi behövde därför vara tydliga med vilka bostäder modellen skulle gälla för, hur osäkra värden skulle hanteras och vad resultatet faktiskt betyder. Modellen uppskattar **utgångspris**, inte slutpris vid försäljning.
 

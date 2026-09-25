@@ -14,7 +14,7 @@ Projektet använder Python 3.14 och [uv](https://docs.astral.sh/uv/getting-start
 
 ```bash
 git clone https://github.com/lakevalley/boprisindikatorn.git
-cd bostadskollen
+cd boprisindikatorn
 uv sync
 uv run streamlit run app.py
 ```
@@ -34,7 +34,7 @@ Streamlit samlar in bostadsuppgifter och visar uppskattningen. SQLite lagrar gjo
 ## Projektstruktur
 
 ```text
-bostadskollen/
+boprisindikatorn/
 ├── app.py                         # Startpunkt och navigering i Streamlit
 ├── pages/
 │   ├── 0_App.py                   # Prisuppskattning
